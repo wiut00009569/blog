@@ -45,7 +45,15 @@ app.post('/create', (req, res) => {
     }
 })
 
+app.get('/api/v1/blogs', (req, res) => {
+    fs.readFile('./data/blogs.json', (err, data) => {
+        if (err) throw err
 
+        const blogs = JSON.parse(data)
+
+        res.json(blogs)
+    })
+})
 
 app.get('/blogs', (req, res) => {
 
@@ -72,6 +80,25 @@ app.get('/blogs/:id', (req, res) => {
 
 
 })
+app.get('/blogs/:id/delete', (req, res) => {
+    const id = req.params.id
+
+    fs.readFile('./data/blogs.json', (err, data) => {
+        if (err) throw err
+
+        const blogs = JSON.parse(data)
+
+        const filteredBlogs = blogs.filter(blog => blog.id != id)
+
+        fs.writeFile('./data/blogs.json', JSON.stringify(filteredBlogs), err => {
+            if (err) throw err
+
+            res.render('blogs', { id: id, blogs: filteredBlogs })
+        })
+    })
+})
+
+
 
 app.listen(8000, err => {
     if (err) console.log(err)
