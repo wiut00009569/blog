@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content 
+  div.container
+    h1.create_blog Create blog 
+
+    if error
+      p.error Error! Please complete the form!
+
+    if success
+      p.success Blog is successfully added 
+
+    form.form(action="/create" method='POST')
+      label Title 
+      input.input(type="text" name='title')
+
+      label Description 
+      textarea.input(type="type" name="description")
+
+      button.btn Create blog

@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+        
+    title Blogs app
+    link(rel='stylesheet' href='/static/main.css')
+  body 
+    header.navbar 
+      h1 
+        a(href='/') Blog App
+
+      nav.nav
+        a(href='/blogs') All blogs
+        a(href='/archive') Archives 
+        
+    block content       

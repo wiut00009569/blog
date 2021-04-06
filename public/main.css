@@ -1,0 +1,187 @@
+:root {
+    font-size: 20px;
+    color: black;
+    font-style: obster;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 236, 236);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content,
+.header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: rgb(22, 173, 22);
+}
+
+.navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid green;
+    padding: 10px 10px;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 25px;
+}
+
+
+/*homepage stlye is started*/
+
+.container {
+    max-width: 1000px;
+    margin-left: 0 auto;
+    padding: 10px;
+}
+
+.first-msg {
+    font-size: 35px;
+    max-width: 97%;
+    padding: 100px 0px 20px 430px;
+    align-items: center;
+}
+
+.feautures {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 572px;
+    background: rgb(22, 192, 22);
+    color: white;
+    border-radius: 20px 20px;
+    font-size: 23px;
+}
+
+.feautures:hover {
+    display: inline-block;
+    padding: 11px 21px;
+    margin-left: 573px;
+    margin-top: 1px;
+    color: white;
+    border-radius: 34px 34px;
+    background-color: darkgreen;
+}
+
+
+/* Create page style is started*/
+
+.form {
+    max-width: 70%;
+    margin-left: 500px;
+}
+
+.input {
+    display: block;
+    padding: 10px;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    border-radius: 10px 10px;
+    border: 2px solid green;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(22, 192, 22);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 20px 20px;
+    font-style: inherit;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+}
+
+.create_blog {
+    margin-left: 647px;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* BLog list style is started  */
+
+.blog-wrapper {
+    max-width: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.blog {
+    margin-left: 200px;
+    font-size: 23px;
+}
+
+.delete {
+    display: inline-block;
+    padding: 10px 21px;
+    background-color: rgb(22, 192, 22);
+    color: white;
+    align-items: center;
+    border-radius: 15px 15px
+}
+
+.delete:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.all_blogs {
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.title {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.description {
+    margin-left: 200px;
+}
+
+.error {
+    display: inline-block;
+    padding: 7px;
+    border: 2px solid red;
+    font-size: 1.2rem;
+    color: red;
+    border-radius: 10px 10px;
+    margin-left: 590px;
+}
+
+.success {
+    display: inline-block;
+    padding: 7px;
+    border: 2px solid rgb(18, 4, 141);
+    font-size: 1.2rem;
+    color: rgb(18, 4, 141);
+    border-radius: 10px 10px;
+    margin-left: 590px;
+}
