@@ -26,4 +26,4 @@ node app.js
 - pug.js (https://pugjs.org/api/getting-started.html)
 
 ### Web application repisitory on github
-[Link to github]
+[Link to github](https://github.com/wiut00009569/blog.git)
