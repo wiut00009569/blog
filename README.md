@@ -7,7 +7,7 @@ To run this application locally you have to follow below steps:
 1. Clone this repository
 ```bash
 
-git clone repisotory link
+git clone https://github.com/wiut00009569/blog.git
 ```
 
 2. Install dependicies
