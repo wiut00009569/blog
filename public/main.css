@@ -47,21 +47,23 @@ a:hover {
 
 .container {
     max-width: 1000px;
-    margin-left: 0 auto;
+    margin: 0 auto;
     padding: 10px;
 }
 
 .first-msg {
     font-size: 35px;
     max-width: 97%;
-    padding: 100px 0px 20px 430px;
-    align-items: center;
+    width: 600px;
+    margin: 100px auto 25px auto;
+    text-align: center;
 }
 
 .feautures {
-    display: inline-block;
+    display: block;
+    width: 150px;
     padding: 10px 20px;
-    margin-left: 572px;
+    margin: 10px auto;
     background: rgb(22, 192, 22);
     color: white;
     border-radius: 20px 20px;
@@ -69,10 +71,6 @@ a:hover {
 }
 
 .feautures:hover {
-    display: inline-block;
-    padding: 11px 21px;
-    margin-left: 573px;
-    margin-top: 1px;
     color: white;
     border-radius: 34px 34px;
     background-color: darkgreen;
@@ -83,7 +81,6 @@ a:hover {
 
 .form {
     max-width: 70%;
-    margin-left: 500px;
 }
 
 .input {
@@ -114,7 +111,6 @@ a:hover {
 }
 
 .create_blog {
-    margin-left: 647px;
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -124,18 +120,16 @@ a:hover {
 /* BLog list style is started  */
 
 .blog-wrapper {
-    max-width: 20%;
+    max-width: 60%;
     display: flex;
     justify-content: space-between;
     padding: 10px;
     align-items: center;
+    border-bottom: 1px solid green;
 }
 
 .blog {
-    padding-left: 200px;
     font-size: 23px;
-    padding-right: 200px;
-    border-bottom: 1px solid green;
     display: block;
 }
 
@@ -161,13 +155,10 @@ a:hover {
 }
 
 .title {
-    margin-left: 200px;
     margin-top: 20px;
 }
 
-.description {
-    margin-left: 200px;
-}
+.description {}
 
 .error {
     display: inline-block;
@@ -176,8 +167,8 @@ a:hover {
     font-size: 1.2rem;
     color: white;
     border-radius: 10px 10px;
-    margin-left: 590px;
     background-color: red;
+    margin-bottom: 16px;
 }
 
 .success {
@@ -188,5 +179,5 @@ a:hover {
     color: rgb(248, 248, 248);
     background-color: rgb(22, 173, 22);
     border-radius: 10px 10px;
-    margin-left: 590px;
+    margin-bottom: 16px;
 }
