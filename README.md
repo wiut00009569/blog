@@ -29,4 +29,4 @@ node app.js
 [Link to github](https://github.com/wiut00009569/blog.git)
 
 ### Link to application on Glitch
-https://adaptable-brief-daughter.glitch.me/
+https://solstice-bird-lungfish.glitch.me/create
